@@ -1,0 +1,63 @@
+{
+  "pathPrefix": "..",
+  "folders":
+  [
+    {
+      "path": "public",
+         "name": "Public Assets"
+    },
+
+    {
+      "path": "pages",
+      "name": "Pages"
+    },
+
+    {
+      "path": "lib",
+      "name": "API",
+      "folder_include_patterns": [
+        "users-api",
+        "tasks-api",
+        "github-oauth",
+        "password-reset-api",
+        "search-api",
+        "user-verify",
+        "sessions-api"
+      ]
+    },
+
+    {
+      "path": "lib",
+      "name": "Mixins & Layouts",
+      "folder_include_patterns": [
+        "*-mixin",
+        "base-layout"
+      ]
+    },
+
+    {
+      "path": "lib",
+      "name": "Models",
+      "folder_include_patterns": [
+        "*-model"
+      ]
+    },
+
+    {
+      "path": "lib",
+      "name": "Misc",
+      "folder_exclude_patterns": [
+        "*-mixin",
+        "base-layout",
+        "users-api",
+        "tasks-api",
+        "github-oauth",
+        "password-reset-api",
+        "search-api",
+        "user-verify",
+        "sessions-api",
+        "*-model"
+      ]
+    }
+  ]
+}
