@@ -1,6 +1,6 @@
 {
   "name": "proview",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Quit fighting your project structure and easily configure a dev environment to support different 'views' of your project folder. Uses symlinks to create a file system organization that actually suits the task you're working on without breaking references.",
   "main": "init.js",
   "scripts": {
@@ -20,5 +20,8 @@
   "dependencies": {
     "minimatch": "^2.0.1",
     "rimraf": "^2.2.8"
+  },
+  "bin": {
+    "proview": "./proview"
   }
 }
